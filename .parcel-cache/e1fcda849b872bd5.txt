@@ -2,7 +2,7 @@
 100C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\js-yaml\lib\type\seq.js132969869581157668 0
 93C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\type-is\index.js132969214861443882 0
 122C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\core-js-pure\proposals\regexp-named-groups.js132969869711703273 0
-74C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\.gitignore132975014656432999 0
+74C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\.gitignore132975037477480752 0
 102C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\toidentifier\package.json132969214861453831 0
 98C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\.upath-0yvUlcdx\build132973636913508479 1
 106C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\source-map-support\LICENSE.md132973651951386725 0
@@ -47,7 +47,7 @@
 119C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\core-js\internals\iterator-create-proxy.js132974013577347387 0
 101C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\sharp\lib\constructor.js132974269756353741 0
 100C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\flatted\php\flatted.php132969869571694600 0
-70C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\app.js132975030514438172 0
+70C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\app.js132975072195237921 0
 119C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\core-js-pure\internals\object-to-string.js132969869705725828 0
 133C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\@babel\runtime-corejs3\core-js\number\is-safe-integer.js132969869618356824 0
 137C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\regenerate-unicode-properties\Script\Egyptian_Hieroglyphs.js132973731317775659 0
@@ -76,7 +76,7 @@
 104C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\regexp.prototype.flags\test132969869571118301 1
 104C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\readable-stream\.travis.yml132970013841343813 0
 111C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\@parcel\packager-js\lib\helpers.js132973700894893239 0
-81C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\public\js\bundled132975037053544434 1
+81C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\public\js\bundled132975095501302326 1
 83C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\public\js\alerts.js132973682490779265 0
 102C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\@parcel\core\src\requests132973700962249539 1
 100C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\validator\lib\isHash.js132970861282283422 0
@@ -165,7 +165,7 @@
 119C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\svgo\plugins\removeUselessStrokeAndFill.js132973652068987131 0
 102C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\validator\es\lib\isEAN.js132970861281905323 0
 123C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\aria-query\lib\etc\roles\literal\bannerRole.js132969869571501647 0
-76C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\package.json132975036917060965 0
+76C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\package.json132975040981639435 0
 103C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\prebuild-install\README.md132974269754089825 0
 87C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\typedarray132974203215438914 1
 125C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\sharp\vendor\8.12.2\win32-x64\include\vips\vips8132881312790000000 0
@@ -208,7 +208,7 @@
 114C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\core-js\modules\es.error.to-string.js132974013548919508 0
 124C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\lmdb\prebuilds\darwin-x64\node.abi93.glibc.node132973701022115470 0
 89C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\loose-envify132969869566403527 1
-73C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\server.js132971454863412941 0
+73C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\server.js132975074496388082 0
 117C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\core-js\features\typed-array\iterator.js132974013577755932 0
 69C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\utils132973292119237257 1
 89C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\import-fresh132969869563048833 1
@@ -241,7 +241,7 @@
 104C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\tsconfig-paths\src\index.ts132969869585744254 0
 122C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\core-js-pure\full\typed-array\uint16-array.js132969869730963683 0
 127C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\.parcel-bundler-ky8ndCsn\node_modules\.bin\js-yaml132973637224398551 0
-81C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\views\account.pug132974577990160763 0
+81C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\views\account.pug132975093150574192 0
 109C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\babel-plugin-dynamic-import-node132973731296789138 1
 104C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\xss-filters\jsdoc.conf.json132971987075423530 0
 114C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\mongoose\lib\options\removeOptions.js132970013910237803 0
@@ -261,7 +261,7 @@
 104C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\weak-lru-cache\package.json132973651956072044 0
 103C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\core-js\internals\fails.js132974013558157568 0
 89C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\gensync\test132973731288877873 1
-91C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\public\js\updateSettings.js132975036117796471 0
+91C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\public\js\updateSettings.js132975091322360109 0
 140C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\@babel\runtime-corejs3\core-js\reflect\get-own-metadata-keys.js132969869619940260 0
 99C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\lodash\_unicodeSize.js132971996017500937 0
 125C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\string_decoder\node_modules\safe-buffer\index.js132970013825439826 0
@@ -366,7 +366,7 @@
 102C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\lodash\fp\includesFrom.js132971996042608418 0
 123C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\readable-stream\lib\internal\streams\stream.js132970013837455394 0
 129C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\regenerate-unicode-properties\Script\Meetei_Mayek.js132973731331161733 0
-90C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\public\js\bundled\index.js132975037053484608 0
+90C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\public\js\bundled\index.js132975095501227190 0
 88C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\views\emails\welcome.pug132974402534496728 0
 110C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\validator\es\lib\util\includes.js132970861278513468 0
 110C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\core-js-pure\full\get-iterator.js132969869666783155 0
@@ -502,7 +502,7 @@
 119C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\css-tree\lib\syntax\node\MediaQueryList.js132973652084086155 0
 113C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\.svgo-6ujKm9lF\node_modules\has-flag132973636896626872 1
 124C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\caniuse-lite\data\features\css-initial-value.js132973652147627980 0
-82C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\public\js\index.js132974947589108180 0
+82C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\public\js\index.js132975092461845306 0
 83C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\public\js\signup.js132975035790944412 0
 104C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\function-bind\test\index.js132969214865255537 0
 91C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\mpath\bench.js132970013825380393 0
@@ -542,7 +542,7 @@
 130C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\@ampproject\remapping\dist\types\source-map-tree.d.ts132973731296889022 0
 94C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\merge-descriptors132969214863495424 1
 110C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\unicode-match-property-ecmascript132973731283222996 1
-94C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\public\js\bundled\index.js.map132975037053524501 0
+94C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\public\js\bundled\index.js.map132975095501287425 0
 89C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\public\img\logo-green.png132967932235933538 0
 120C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\mongodb\lib\operations\options_operation.js132970013881247479 0
 140C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\eslint-plugin-node\lib\rules\prefer-global\url-search-params.js132969869600200566 0
@@ -16307,7 +16307,7 @@
 110C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\es-abstract\2017\SameValueZero.js132969869660376516 0
 108C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\es-abstract\2017\SecFromTime.js132969869660523142 0
 114C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\core-js-pure\actual\typed-array\at.js132969869611653736 0
-93C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\controllers\authController.js132975034304099828 0
+93C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\controllers\authController.js132975071765488367 0
 100C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\es-abstract\2017\Set.js132969869660693538 0
 114C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\es-abstract\2017\SetIntegrityLevel.js132969869661357501 0
 122C:\Users\Sandy\OneDrive\Desktop\NodeJS\Projects\notours\starter\node_modules\core-js\full\number\virtual\to-exponential.js132974013591303557 0
