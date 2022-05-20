@@ -46,15 +46,18 @@ if (loginForm) {
 if (logoutBtn) logoutBtn.addEventListener('click', logout);
 
 if (userDataForm)
-  userDataForm.addEventListener('submit', (e) => {
+  userDataForm.addEventListener('submit', async (e) => {
     e.preventDefault();
+    document.querySelector('.btn--save-data').textContent = 'saving...';
 
     const form = new FormData();
     form.append('name', document.getElementById('name').value);
     form.append('email', document.getElementById('email').value);
     form.append('photo', document.getElementById('photo').files[0]);
 
-    updateSettings(form, 'data');
+    await updateSettings(form, 'data');
+    document.querySelector('.btn--save-data').textContent = 'Save settings';
+    location.reload();
   });
 
 if (userPasswordForm)
