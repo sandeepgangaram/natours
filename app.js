@@ -131,16 +131,14 @@ const limiter = rateLimit({
   windowMs: 60 * 60 * 1000,
   message: 'Too many requests from this IP, please try again in an hour!',
 });
+app.use('/api', limiter); //our app cannot crash in this window otherwise it will reset all these limits as well
 
-// need this raw - not in json :: so here
-
+// Stripe webhook, BEFORE body-parser, because stripe needs the body as stream
 app.post(
   '/webhook-checkout',
   express.raw({ type: 'application/json' }),
   webhookCheckout
 );
-
-app.use('/api', limiter); //our app cannot crash in this window otherwise it will reset all these limits as well
 
 // Body parser, reading data from body into req.body
 // Limiting body payload
