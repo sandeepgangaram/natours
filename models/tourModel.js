@@ -182,20 +182,20 @@ tourSchema.pre(/^find/, function (next) {
   next();
 });
 
-tourSchema.post(/^find/, function (docs, next) {
-  console.log(`Query took ${Date.now() - this.start}ms`);
+// tourSchema.post(/^find/, function (docs, next) {
+//   console.log(`Query took ${Date.now() - this.start}ms`);
 
-  next();
-});
+//   next();
+// });
 
 // AGGREGATION MIDDLEWARE
 tourSchema.pre('aggregate', function (next) {
-  console.log(this);
-  console.log(Object.keys(this._pipeline[0]));
+  // console.log(this);
+  // console.log(Object.keys(this._pipeline[0]));
   if (!Object.keys(this._pipeline[0]).includes('$geoNear')) {
     this._pipeline.unshift({ $match: { secretTour: { $ne: true } } });
   }
-  console.log(this);
+  // console.log(this);
   next();
 });
 
