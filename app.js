@@ -16,6 +16,7 @@ const reviewRouter = require('./routes/reviewRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRoutes');
 
+// Start Express App
 const app = express();
 
 // Express app settings to set view engine as pug and watch the views folder

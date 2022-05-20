@@ -18,7 +18,6 @@ export const updateSettings = async (data, type) => {
       showAlert('success', 'Updated sucessfully');
     }
   } catch (err) {
-    console.log(err);
     showAlert('error', err.response.data.message);
   }
 };
