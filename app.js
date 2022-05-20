@@ -17,6 +17,7 @@ const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRoutes');
+const { webhookCheckout } = require('./controllers/bookingController');
 
 // Start Express App
 const app = express();
@@ -130,6 +131,14 @@ const limiter = rateLimit({
   windowMs: 60 * 60 * 1000,
   message: 'Too many requests from this IP, please try again in an hour!',
 });
+
+// need this raw - not in json :: so here
+
+app.post(
+  '/webhook-checkout',
+  express.raw({ type: 'application/json' }),
+  webhookCheckout
+);
 
 app.use('/api', limiter); //our app cannot crash in this window otherwise it will reset all these limits as well
 

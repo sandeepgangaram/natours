@@ -9,7 +9,7 @@ const {
   getMyTours,
 } = require('../controllers/viewsController');
 const { protect, isLoggedIn } = require('../controllers/authController');
-const { createBookingCheckout } = require('../controllers/bookingController');
+// const { createBookingCheckout } = require('../controllers/bookingController');
 
 const router = express.Router();
 
@@ -20,7 +20,8 @@ router.post('/submit-user-data', protect, updateUserData);
 router.get('/my-tours', protect, getMyTours);
 
 router.use(isLoggedIn);
-router.get('/', createBookingCheckout, getOverview);
+// router.get('/', createBookingCheckout, getOverview);
+router.get('/', getOverview);
 router.get('/tour/:slug', getTour);
 router.get('/login', getLoginForm);
 router.get('/login', getLoginForm);
