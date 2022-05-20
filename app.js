@@ -8,6 +8,7 @@ const xss = require('xss-clean');
 const hpp = require('hpp');
 const cookieParser = require('cookie-parser');
 const compression = require('compression');
+const cors = require('cors');
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
@@ -94,6 +95,26 @@ app.use(
 );
 
 // Global Middlewares
+// Implementing CORS
+app.use(cors()); //works for simple get and post requests
+// Access-Control-Allow-Origin headers are sent
+
+// Ex: if api at - api.natours.com and frontend at natours.com
+// app.use(cors({
+//   origin:'https://www.natours.com'
+// })) // this will allow only access to api from the above mentioned origin
+
+app.options('*', cors());
+
+//for non-simple requests like PATCH,PUT,DELETE or requests that send cookirs or use non-standard headers
+// Non-simple requests require a so called preflight phase
+// Whenever there is a preflight phase The browser sends an OPTIONS request (before the real request actually happens to figure out if the incoming request is safe)
+// So we need to respond to that options request
+
+// app.options('/api/v1/tours/:id',cors());
+
+// for a http options request -
+
 // Serving static files
 app.use(express.static(path.join(__dirname, 'public')));
 
