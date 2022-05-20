@@ -17,7 +17,7 @@ export const updateSettings = async (data, type) => {
     if (res.data.status === 'success') {
       showAlert('success', 'Updated sucessfully');
     }
-    location.assign('/me');
+    setTimeout(() => window.location.reload());
   } catch (err) {
     showAlert('error', err.response.data.message);
   }
