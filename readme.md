@@ -1,5 +1,19 @@
-# Natours Application
+# Natours - Full Stack Web Application
 
-Built using latest technologies : Node.js, Express, MongoDB and Mongoose.
+##Tech Stack Used
 
-Also integrated Stripe payments. (Test Version) ✌️
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Pug
+
+## Features
+
+- Authentication - JWT
+- Payment with Stripe
+- Email Notification using Nodemailer, mailtrap
+- Data Validation
+- Security - CORS, XSS, Helmet etc
+
+Happy Coding✌️
