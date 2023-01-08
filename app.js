@@ -107,7 +107,7 @@ app.use(cors()); //works for simple get and post requests
 
 app.options('*', cors());
 
-//for non-simple requests like PATCH,PUT,DELETE or requests that send cookirs or use non-standard headers
+//for non-simple requests like PATCH,PUT,DELETE or requests that send cookies or use non-standard headers
 // Non-simple requests require a so called preflight phase
 // Whenever there is a preflight phase The browser sends an OPTIONS request (before the real request actually happens to figure out if the incoming request is safe)
 // So we need to respond to that options request
