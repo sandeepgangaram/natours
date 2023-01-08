@@ -18,6 +18,13 @@ Deployed on Render at -> [https://book-a-tour.onrender.com/](https://book-a-tour
 - Data Validation
 - Security - CORS, XSS, Helmet etc
 
-NOTE: For trying out chekout using Stripe try card number: 4242 4242 4242 4242
+## For Testing The APP
+
+- You can just Signup or if lazy use the below credentials:
+
+  - Email id: test@dev.com
+  - Password: test@dev
+
+- Use card number: 4242 4242 4242 4242 to make a payment on Stripe
 
 Happy Coding✌️
