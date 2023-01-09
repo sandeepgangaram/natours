@@ -1,6 +1,6 @@
 # Natours - Full Stack Web Application
 
-Deployed on Render at -> [https://book-a-tour.onrender.com/](https://book-a-tour.onrender.com/)
+Deployed on Render at -> [https://natours-sandev.onrender.com](https://natours-sandev.onrender.com)
 
 ##Tech Stack Used
 
@@ -27,4 +27,4 @@ Deployed on Render at -> [https://book-a-tour.onrender.com/](https://book-a-tour
 
 - Use card number: 4242 4242 4242 4242 to make a payment on Stripe
 
-Happy Coding✌️
+### Happy Coding✌️
